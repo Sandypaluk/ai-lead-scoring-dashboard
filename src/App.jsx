@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import SummaryBar from './components/SummaryBar'
 import FilterBar from './components/FilterBar'
 import LeadsTable from './components/LeadsTable'
@@ -135,6 +136,7 @@ export default function App() {
           </>
         )}
       </main>
+      <Analytics />
     </div>
   )
 }
