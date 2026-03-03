@@ -1,0 +1,10 @@
+{
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/score.js": {
+      "maxDuration": 60,
+      "includeFiles": "leads.csv"
+    }
+  }
+}
