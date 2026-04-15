@@ -8,7 +8,7 @@ Built with Claude API to eliminate manual lead qualification for
 luxury vacation property co-ownership sales teams.
 
 ## 🚀 Live Demo
-[Live App]([(https://ai-lead-scoring-dashboard-woad.vercel.app/)]) | [Video Walkthrough]([(https://youtu.be/ITVLpOT5x50)])
+[Live App][https://ai-lead-scoring-dashboard-woad.vercel.app/] | [Video Walkthrough][https://youtu.be/ITVLpOT5x50]
 
 ## 💡 The Problem It Solves
 Sales teams waste hours every week manually sorting through leads, 
