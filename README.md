@@ -48,7 +48,7 @@ This dashboard eliminates that problem entirely:
 ## 🛠️ Tech Stack
 - **Frontend:** React, Tailwind CSS
 - **Backend:** Node.js, Vercel Serverless Functions
-- **AI:** Anthropic Claude API (claude-sonnet-4-20250514)
+- **AI:** Anthropic Claude API (claude-sonnet-5)
 - **Deployment:** Vercel
 
 ## ⚙️ Run Locally
