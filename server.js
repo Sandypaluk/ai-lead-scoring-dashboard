@@ -90,10 +90,10 @@ ${leadLines}
 Return only the JSON array.`;
 
   try {
-    console.log(`\n🤖 Sending all ${leads.length} leads to Claude (claude-sonnet-4-20250514)...`);
+    console.log(`\n🤖 Sending all ${leads.length} leads to Claude (claude-sonnet-4-5)...`);
 
     const message = await client.messages.create({
-      model: 'claude-sonnet-4-20250514',
+      model: 'claude-sonnet-4-5',
       max_tokens: 4096,
       messages: [{ role: 'user', content: prompt }],
     });
