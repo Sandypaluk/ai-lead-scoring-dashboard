@@ -84,7 +84,8 @@ Return only the JSON array.`;
       messages: [{ role: 'user', content: prompt }],
     });
 
-    const rawText = message.content[0].text;
+    const textBlock = message.content.find(block => block.type === 'text');
+    const rawText = textBlock?.text || '';
     const jsonText = extractJSON(rawText);
     const scores = JSON.parse(jsonText);
 
