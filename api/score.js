@@ -85,7 +85,7 @@ Return only the JSON array.`;
     });
 
     const textBlock = message.content.find(block => block.type === 'text');
-    const rawText = textBlock?.text || '';
+    const rawText = (textBlock?.text || '').replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
     const jsonText = extractJSON(rawText);
     const scores = JSON.parse(jsonText);
 
