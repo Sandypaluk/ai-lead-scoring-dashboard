@@ -80,7 +80,7 @@ Return only the JSON array.`;
 
     const message = await client.messages.create({
       model: 'claude-sonnet-5',
-      max_tokens: 4096,
+      max_tokens: 8000,
       messages: [{ role: 'user', content: prompt }],
     });
 
